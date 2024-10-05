@@ -7,7 +7,7 @@ public class weather {
     private double humidity;
 
     // Constructor
-    public Weather(String condition, double temperature, double humidity) {
+    public weather(String condition, double temperature, double humidity) {
         this.condition = condition;
         this.temperature = temperature;
         this.humidity = humidity;
@@ -61,7 +61,7 @@ public class weather {
         double humidity = scanner.nextDouble();
 
         // Creating a Weather object with user input
-        Weather todayWeather = new Weather(condition, temperature, humidity);
+        Weather todayWeather = new weather(condition, temperature, humidity);
 
         // Displaying the weather information
         todayWeather.displayWeather();
