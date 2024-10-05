@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Weather {
+public class weather {
     // Attributes of the Weather class
     private String condition;
     private double temperature;
