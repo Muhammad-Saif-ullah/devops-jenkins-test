@@ -47,26 +47,10 @@ public class weather {
 
     // Main method to test the Weather class with user input
     public static void main(String[] args) {
-        // Creating a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
-
-        // Getting user input
-        System.out.print("Enter weather condition (e.g., Sunny, Rainy): ");
-        String condition = scanner.nextLine();
-
-        System.out.print("Enter temperature in °C: ");
-        double temperature = scanner.nextDouble();
-
-        System.out.print("Enter humidity percentage: ");
-        double humidity = scanner.nextDouble();
-
         // Creating a Weather object with user input
-        weather todayWeather = new weather(condition, temperature, humidity);
+        weather todayWeather = new weather("Rainy", 26.3, 52);
 
         // Displaying the weather information
         todayWeather.displayWeather();
-
-        // Closing the scanner
-        scanner.close();
     }
 }
