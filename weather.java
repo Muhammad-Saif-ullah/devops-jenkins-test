@@ -61,7 +61,7 @@ public class weather {
         double humidity = scanner.nextDouble();
 
         // Creating a Weather object with user input
-        Weather todayWeather = new weather(condition, temperature, humidity);
+        weather todayWeather = new weather(condition, temperature, humidity);
 
         // Displaying the weather information
         todayWeather.displayWeather();
