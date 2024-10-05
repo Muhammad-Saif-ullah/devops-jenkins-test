@@ -5,7 +5,6 @@ public class Weather {
     private String condition;
     private double temperature;
     private double humidity;
-    public nothing // error here
 
     // Constructor
     public Weather(String condition, double temperature, double humidity) {
